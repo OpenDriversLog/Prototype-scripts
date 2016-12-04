@@ -5,8 +5,9 @@ This repository contains some LUA-scripts to get data (mileage, battery load, fu
 This work is licensed under a [![License](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png) Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
+# Documentation
 
-parseAtma_Imiev.lua
+### parseAtma_Imiev.lua
 This script is for listening to the CAN-Bus in an I-MieV. 
 !!!Note that you have to set the baud rate of the STN1110 board to 500000 or it will get an buffer overflow error!!!
 To do that use the "sendCommands.py"-sript like: "sudo python sendCommands 9600 STSBR500000 STWBR"
@@ -19,7 +20,7 @@ For it to  monitor the CAN-Bus it has to be connected to the I-MieV via the STN1
 !!!Note that the UART is reversed on the first STN1110 board prototypes. Use the newer models!!!
 
 
-sendCommands.py
+### sendCommands.py
 This script sends commands over UART. The first parameteris the baudrate that is used to communicate with the STN1110 board.
 After that a " "-separated list of commands can be used like:
 sudo python sendCommands.py <BAUDRATE (9600 or 500000)> <COMMANDS (" "-separated)>
@@ -29,8 +30,8 @@ example for changing back the baudrate
 sudo python sendCommands 500000 STSBR9600 STWBR
 !!!Note that the baudrate will stay even if you power off the STN1110 board. This is why only the two baudrates are allowed!!!
 
-libODL.lua
-This library has allot of important routines that are being used in several scripts.
+### libODL.lua
+This library has alot of important routines that are being used in several scripts.
 First you have to add the path to the library to your packages.path variable in LUA.
 To do so just type into your console: 
 lua #this opens a lua shell

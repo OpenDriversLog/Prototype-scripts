@@ -1,3 +1,11 @@
+# Prototype scripts for ODL
+See https://github.com/OpenDriversLog/goodl
+This repository contains some LUA-scripts to get data (mileage, battery load, fuel level) from some cars, especially Mitsubishi iMiev & Ford Focus.
+# License 
+This work is licensed under a [![License](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png) Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+
 parseAtma_Imiev.lua
 This script is for listening to the CAN-Bus in an I-MieV. 
 !!!Note that you have to set the baud rate of the STN1110 board to 500000 or it will get an buffer overflow error!!!

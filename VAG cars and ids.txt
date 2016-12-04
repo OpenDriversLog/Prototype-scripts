@@ -1,0 +1,222 @@
+
+;
+; VCDS Auto-Scan File 20151204
+;
+; Copyright © 2000+ Ross-Tech, LLC
+;
+; created many moons ago by Uwe Ross (Uwe@Ross-Tech.com)
+; updated on a regular Basis by Niels Ezerman (NEz@NEtech.dk) and Sebastian Stange (Sebastian@Ross-Tech.com)
+;
+; You can adjust some to your own wishes fix.
+; 00,Short standard,01,03,17,56
+; 01,My Car,01,03,08,09,15,16,17,36,45,46,55,56
+;
+; Chassis Code (max 3 characters),
+; Description  (max 15 characters),
+; Comma-separated list of addresses (max 125 addresses)
+; Maximum 250 chassis types
+;
+2H,VW Amarok (2010 >),00
+9K,VW Caddy (1996 > 2003),01,03,15,25,41,56
+2K,VW Caddy (2004 > 2010),00
+2C,VW Caddy (2011 >),00
+50,VW Corrado (< 1995),01,02,03,15,25
+1E,VW Golf Cabrio (1993 > 2002),01,02,03,08,15,25,35,56
+1V,VW Golf Cabrio (1997 > 2002),01,02,03,08,15,25,35,56
+51,VW Golf Cabrio (2012 >),00
+1F,VW Eos (2006 >),00
+AH,VW Eos NAR (2010 >),00
+5Z,VW Fox (2004 >),01,03,08,09,15,17,19,44,46,56
+17,VW Golf Citi (< 2009),01,09,15,17,25,56
+1G,VW Golf/Jetta II (1989 > 1992),01,02,03
+1H,VW Golf/Vento III (1992 > 1999),01,02,03,08,12,15,25,41,56
+1J,VW Golf/Bora IV (1998 > 2006),01,02,03,08,15,16,17,19,22,29,35,36,37,39,46,47,55,56,57,75,76
+9M,VW Jetta IV (1998 > 2014),01,02,03,08,09,15,16,17,19,22,29,35,36,37,39,46,47,55,56,57,75,76
+1K,VW Golf/Jetta V (2004 > 2009),00
+5K,VW Golf/Jetta VI (2009 > 2013),00
+AJ,VW Golf/Jetta VI NAR (2010 > 2014),00
+5G,VW Golf/Jetta VII (2013 >),00
+AU,VW Golf/Jetta VII NAR (2015 >),00
+BA,VW Golf Variant VII (2014 >),00
+BE,VW e-Golf VII (2015 >),00
+BS,VW Jetta CHN (2013 >),00
+5W,VW Gol/Par/Sav/Poi,01,03,15,25,17,46
+5X,VW Gol/Par/Sav/Poi,01,15,17,25,56
+5Y,VW Gol Special,01
+5U,VW Gol/Voyage/Saveiro (2009 > 2013),01,02,03,07,15,25,29,39,46,56,76
+5U,VW Novo Gol/Voyage/Saveiro (2013 >),01,02,03,09,10,15,17,25,30,56
+1C,VW New Beetle (1998 > 2010),01,02,03,08,15,17,19,22,25,26,29,35,37,39,46,54,56,65,75
+AG,VW New Beetle NAR (2010),01,02,03,08,15,17,19,22,25,26,29,35,37,39,46,54,56,65,75
+9C,VW New Beetle (1999 > 2010),01,02,03,08,15,17,19,22,25,26,29,35,37,39,46,54,56,65,75
+1Y,VW New Beetle Cab (2003 > 2010),01,02,03,08,15,17,19,22,25,26,29,35,37,39,46,54,56,65,75
+AL,VW New Beetle Cab NAR (2010),01,02,03,08,15,17,19,22,25,26,29,35,37,39,46,54,56,65,75
+5C,VW Beetle (2012 >),00
+AT,VW Beetle NAR (2012 >),00
+5C,VW Beetle Cab (2013 >),00
+AT,VW Beetle Cab NAR (2013 >),00
+15,VW New Bora (2008 >),00
+7X,VW Kombi/T2C (2006 >),01,17,25,30
+18,VW Lavida (2008 >),00
+2D,VW LT2 (1996 > 2006),01,25
+2E,VW Crafter (LT3 / 2006 >),01,91,92,93,94,95,96,97,98,99,9A,9B,9C,9D,9E,9F,A0,A1,A2,A3,B0,B1,B2,B3,B4,B5,B6,C1
+2F,VW Crafter (LT3 / 2006 >),01,91,92,93,94,95,96,97,98,99,9A,9B,9C,9D,9E,9F,A0,A1,A2,A3,B0,B1,B2,B3,B4,B5,B6,C1
+6X,VW Lupo (1998 > 2006),01,02,03,08,15,17,19,25,35,37,44,45,55,56
+31,VW Passat B3 (< 1994),01,02,03,08,15
+3A,VW Passat B4 (1994 > 1997),01,02,03,08,15,25,41
+3B,VW Passat B5 (1997 > 2005),01,02,03,08,15,16,17,19,35,36,37,46,47,55,56,57,58,75,76,77
+3C,VW Passat B6 (2005 > 2010),00
+AN,VW Passat B6 NAR (2010),00
+36,VW Passat B7 (2011 > 2014),00
+3G,VW Passat B8 (2015 >),00
+A3,VW Passat NMS NAR (2012 >),00
+35,VW Passat CC (2009 >),00
+AN,VW Passat CC NAR (2010 >),00
+3D,VW Phaeton (2002 > 2006),01,02,03,05,06,07,08,09,11,13,15,16,17,18,19,23,27,28,29,2E,34,36,37,38,39,46,47,55,56,57,65,66,68,69,71,75,76,77
+3D,VW Phaeton (2007 >),00
+80,VW Polo 86C (1991 > 1994),01
+6N,VW Polo (1995 > 2002),01,02,03,08,15,17,19,25,41,45,46,55,56
+9N,VW Polo (2002 > 2010),01,02,03,08,09,15,17,19,25,37,44,45,46,56,76
+6R,VW Polo (2010 > 2014),00
+6C,VW Polo (2015 >),00
+6V,VW Polo Classic (1996 > 2010),01,02,03,15,17,19,25,46,56
+60,VW Polo India (2010 >),00
+61,VW Polo Russia (2011 >),00
+6S,VW Polo Vivo (2010 >),01,02,03,08,09,15,17,19,25,44,46,56
+BK,VW Sagitar (2006 >),00
+3X,VW Santana (1994 > 2014),01,25
+13,VW Scirocco (2009 >),00
+7M,VW Sharan (1996 > 2010),25,01,02,03,08,09,15,16,17,18,19,22,29,35,36,37,39,45,55,56,76
+7N,VW Sharan (2011 >),00
+5N,VW Tiguan (2008 >),00
+AX,VW Tiguan NAR (2010 >),00
+7L,VW Touareg (2003 > 11/2006),01,02,03,05,06,08,09,11,13,15,16,17,18,19,1C,22,29,32,34,36,37,39,3C,46,47,55,56,57,64,65,68,69,6C,6D,6E,75,76,77
+7L,VW Touareg (12/2006 > 2011),00
+A9,VW Touareg NAR (2010 > 2011),00
+7P,VW Touareg (2011 >),00
+BP,VW Touareg NAR (2011 >),00
+1T,VW Touran (2003 > 2015),00
+5T,VW Touran (2015 >),00
+70,VW Transporter/Multivan (1991 > 1996),01,02,03,08,15,22,25
+7D,VW Transporter/Multivan (1996 > 2004),01,02,03,08,15,17,18,19,22,25,35,37,56
+7H,VW Transporter/Multivan (2003 > 2010),01,02,03,08,09,0B,0D,15,16,17,18,19,1C,22,2D,37,45,46,47,56,57,6E,76,77,78,7D
+7J,VW Transporter/Multivan (2003 > 2010),01,02,03,08,09,0B,15,16,17,18,19,1C,22,37,45,46,47,56,6E,76,77,7D
+7E,VW Transporter/Multivan (2010 > 2015),00
+7F,VW Transporter/Multivan (2010 > 2015),00
+SF,VW Transporter/Multivan (2016 >),00
+SG,VW Transporter/Multivan (2016 >),00
+12,VW Up (2012 >),00
+AA,VW Up (2012 >),00
+6A,VW Up Brazil (2014 >),01,02,03,08,09,10,15,17,25,44,56
+MA,VW Marine Engines,01
+IN,VW Industrial Engines,01
+8X,Audi A1 (2011 >),00
+8Z,Audi A2 (2000 > 2005),01,02,03,08,15,16,17,18,37,45,46,56,57,75,76,77
+8L,Audi A3/S3 (1997 > 2003),01,02,03,08,15,16,17,22,35,37,45,55,56,57,75,76
+8P,Audi A3/S3/RS3/Cabrio (2004 > 2013),00
+FM,Audi A3/S3/Cabrio NAR (2010 > 2014),00
+8V,Audi A3/S3/Cabrio (2013 >),00
+FF,Audi A3/S3/Cabrio NAR (2015 >),00
+8C,Audi 80/S2 B4 (1992 > 1996),01,02,03,08,15,25
+8D,Audi A4/S4/RS4 B5 (1995 > 2001),01,02,03,08,15,16,17,25,35,37,45,55,56,57,67,75,76,77
+8E,Audi A4/S4/RS4 B6/B7 (2001 > 2008),01,02,03,08,09,0F,11,15,16,17,18,25,36,37,45,46,55,56,57,65,67,69,75,76,77
+8K,Audi A4/S4/RS4 B8 (2008 > 2015),00
+FL,Audi A4/S4/RS4 B8 NAR (2010 > 2015),00
+;8W,Audi A4/S4/RS4 B9 (2016 >),00
+;F4,Audi A4/S4/RS4 B9 NAR (2016 >),00
+8G,Audi Cabrio B4 (1992 > 2000),25,01,02,03,08,15,26,35
+8H,Audi Cabrio B6/B7 (2003 > 2009),01,02,03,08,09,0F,11,15,16,17,18,25,26,36,37,45,46,55,56,57,63,65,67,73,75,76,77
+8N,Audi TT (1999 > 2007),01,02,03,08,15,17,22,35,37,45,55,56,76,77
+8J,Audi TT/TTS/TTRS (2007 > 2014),00
+FK,Audi TT/TTRS NAR (2010 > 2014),00
+FV,Audi TT/TTS/TTRS (2014 >),00
+8T,Audi A5/S5/RS5 (2008 >),00
+FH,Audi A5/S5/RS5 NAR (2010 >),00
+8F,Audi A5/S5/RS5 Cab (2009 >),00
+FR,Audi A5/S5/RS5 Cab NAR (2010 >),00
+44,Audi 100/200 C3 (> 1991),01,02,03,08,15,25
+4A,Audi 100/A6 C4 (1992 > 1997),01,02,03,08,15,17,25,35
+4B,Audi A6/S6/RS6/allroad C5 (1998 > 2006),01,02,03,06,08,15,16,17,18,22,34,35,36,37,45,55,56,57,65,67,75,76,77
+4F,Audi A6/S6/RS6/allroad C6 (2005 > 2011),00
+FB,Audi A6/S6/RS6/allroad C6 NAR (2010 > 2011),00
+4G,Audi A6 (2011 >),00
+FC,Audi A6/S6/RS6 C7 NAR (2011 >),00
+4G,Audi A7 (2011 >),00
+FC,Audi A7 NAR (2011 >),00
+4D,Audi A8 D2 (1994 > 2003),25,01,03,08,11,15,16,17,18,35,37,45,55,56,57,65,67,75,76,77,02
+4E,Audi A8 D3 (2003 > 2010),00
+FA,Audi A8 D3 NAR (2010),00
+4H,Audi A8 D4 (2010 >),00
+FD,Audi A8 D4 NAR (2010 >),00
+8U,Audi Q3 (2012 >),00
+FS,Audi Q3 NAR (2015 >),00
+8R,Audi Q5 (2009 >),00
+FP,Audi Q5 NAR (2010 >),00
+4L,Audi Q7 (2007 > 2015),00
+FE,Audi Q7 NAR (2010 > 2015),00
+;4M,Audi Q7 (2016 >),00
+42,Audi R8 (2007 >),00
+FG,Audi R8 NAR (2010 >),00
+;4S,Audi R8 (2016 >),00
+7V,Seat Alhambra (1996 > 2010),25,01,02,03,08,09,15,16,17,18,19,22,29,35,36,37,39,45,55,56,76
+71,Seat Alhambra (2011 >),00
+7N,Seat Alhambra (2011 >),00
+5P,Seat Altea (2004 >),00
+6H,Seat Arosa (1997 > 2004),01,02,03,08,15,17,19,25,35,56
+3R,Seat Exeo (2010 >),01,02,03,08,09,10,15,16,17,25,37,36,45,46,4C,55,56,77
+6K,Seat Ibiza/Cordoba (1993 > 2001),01,02,03,08,15,17,25,45,56
+6L,Seat Ibiza/Cordoba (2002 > 2009),01,02,03,08,09,15,17,19,25,37,44,46,55,56
+6J,Seat Ibiza (2009 >),00
+9K,Seat Inca (1996 > 2003),01,03,15,41,25
+1M,Seat Leon (2000 > 2005),01,02,03,08,15,17,19,22,35,36,37,46,56
+1P,Seat Leon (2006 > 2013),00
+5F,Seat Leon (2013 >),00
+KF,Seat Mii (2012 >),00
+AA,Seat Mii (2012 >),00
+1L,Seat Toledo (1992 > 1999),01,02,03,15,25,41
+1M,Seat Toledo (2000 > 2004),01,02,03,08,15,17,19,22,35,36,37,46,56
+5P,Seat Toledo (2005 > 2013),00
+NH,Seat Toledo (2013 >),00
+KG,Seat Toledo (2013 >),00
+NF,Skoda Citigo (2012 >),00
+AA,Skoda Citigo (2012 >),00
+6Y,Skoda Fabia (1996 > 2008),01,02,03,08,09,15,17,19,25,37,44,46,55,56,76
+5J,Skoda Fabia (2007 > 2010),01,02,03,08,09,15,16,17,19,25,37,44,46,55,56,76,77
+5J,Skoda Fabia (2011 >),00
+NJ,Skoda Fabia (2015 >),00
+6U,Skoda Felicia (1995 > 2001),01,03,15,25,41
+1U,Skoda Octavia (1997 > 2011),01,02,03,08,15,16,17,19,22,29,35,36,37,39,46,56,76
+1Z,Skoda Octavia (2004 > 2013),00
+5E,Skoda Octavia (2013 >),00
+NE,Skoda Octavia (2013 >),00
+NH,Skoda Rapid (2013 >),00
+5J,Skoda Roomster (2006 > 2010),01,02,03,08,09,15,16,17,19,25,37,44,46,55,56,76,77
+5J,Skoda Roomster (2011 >),00
+3U,Skoda Superb (2002 > 2008),01,02,03,08,15,16,17,19,36,37,46,47,55,56,76
+3T,Skoda Superb (2008 > 2015),00
+3V,Skoda Superb (2015 >),00
+5L,Skoda Yeti (2010 >),00
+3W,Bentley Continental (2004 > 2007),01,02,03,05,06,07,08,09,11,13,15,16,17,18,19,23,26,28,34,36,37,38,46,47,53,54,57,65,66,68,69,6C,71,75,76,77
+3W,Bentley Continental (2008 > 2011),00
+39,Bentley Continental (2012 >),00
+3Y,Bentley Mulsanne (2011 >),00
+;NN,Bentley Arnage,02,15,19,47,56,65,77
+;NN,Bentley Azure,02,06,15,19,26,36,42,45,46,47,52,56,62,65,72,77
+;NN,Bentley Brooklands,02,06,15,19,36,42,45,46,47,52,56,62,65,72,77
+40,Lamborghini Gallardo (2008 > 2013),01,02,03,09,11,16,17,25,37,46,54,56,6C,77
+4T,Lamborghini Huracan (2013 >),00
+ZF,Lamborghini Huracan NAR (2013 >),00
+47,Lamborghini Aventador (2013 >),00
+ZD,Lamborghini Aventador NAR (2013 >),00
+;9P,Porsche Cayenne,01,02,03,05,06,08,09,11,13,15,16,17,18,19,1C,22,29,32,34,36,37,39,3C,46,47,55,56,57,64,65,68,69,6C,6D,6E,75,76,77
+;92,Porsche Cayenne,01,02,03,08,10,15,16,17,18,19,34,36,40,42,44,51,52,53,55,61,62,6D,72
+;A2,Porsche Cayenne NAR,01,02,03,08,10,15,16,17,18,19,34,36,40,42,44,51,52,53,55,61,62,6D,72
+;97,Porsche Panamera,00
+;A7,Porsche Panamera NAR,00
+FG,Ford Galaxy (1995 > 2006),25,01,02,03,08,09,15,16,17,18,19,22,29,35,36,37,39,45,55,56,76
+LF,Linde Fork Lifts (VW Diesel ONLY),01,25
+KT,KTM XBOW,01
+MC,Multicar Tremo,01
+SP,Spyker C8,00,01,05,19,25
+YE,Yes Roadster 2 (2006 >),01,15,17,19
+;
+

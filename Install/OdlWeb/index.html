@@ -1,0 +1,65 @@
+<!-- Save this file to /www/OdlWeb// -->
+
+<html>
+   <head>
+      <title>Return car values</title>
+         <p id="jsonReturn"></p>
+        <p id="demo2"></p>
+         <script language = "javascript" >
+           var jsonStartString = "{\"Car\":[{";
+           var jsonEndString = "}]}";
+           var cartype = "\"nA\"";
+           var odometer = "\"nA\"";
+           var tankLevel = "\"nA\"";
+           var volts = "\"nA\"";
+           var amps = "\"nA\"";
+              function readTextFile(file)
+              {
+                 var rawFile = new XMLHttpRequest();
+                    rawFile.open("GET", file, false);
+                    rawFile.onreadystatechange = function ()
+                    {
+                       if(rawFile.readyState === 4)
+                       {
+                          if(rawFile.status === 200 || rawFile.status == 0)
+                             {
+                                var text = "\"";
+                                var allText = text.concat(rawFile.responseText,text);
+                                switch(file){
+                                   case "Cartype.txt":
+                                      cartype = allText;
+                                      break;
+                                   case "Odometer.txt":
+                                      odometer = allText;
+                                      break;
+                                   case "Tanklevel.txt":
+                                      tankLevel = allText;
+                                      break;
+				   case "Voltage.txt":
+				      volts = allText;
+			              break;
+				   case "Amperage.txt":
+		                      amps = allText;
+				      break;
+                                   default:
+                                      break;
+                                }
+                             }
+                        }
+                     }
+                  rawFile.send(null);
+               }
+
+               readTextFile("Odometer.txt");
+               readTextFile("Cartype.txt");
+               readTextFile("Tanklevel.txt");
+	       readTextFile("Voltage.txt");
+	       readTextFile("Amperage.txt");
+               var output = jsonStartString.concat("\"type\":",cartype,",\"odometer\":",odometer,",\"tanklevel\":",tankLevel, jsonEndString)
+               document.getElementById("jsonReturn").innerHTML = output;
+                //document.getElementById("demo2").innerHTML = "test";
+           </script>
+     </head>
+   <body>                                                             
+   </body>          
+</html>  

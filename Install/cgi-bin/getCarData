@@ -1,0 +1,34 @@
+#!/usr/bin/lua
+---------- Place this in /www/cgi-bin to have a nice JSON service serving car data under http://NodeIP/cgi-bin/getCarData -----------
+
+function readAll(file)                                                                                               
+    local f = io.open(file, "rb")                                                                                    
+    if f==nil then return "NA" end                                                                                   
+    local content = f:read("*all")                                                                                   
+    f:close()                                                                                                        
+    arr = {}                                                                                                         
+    i =0                                                                                                             
+    content = string.gsub(content, " ","")                                                                           
+    if string.match(content,":") then                                                                                
+        for value in string.gmatch(content,'([^:]+)') do   --for each " " save the value in the array                
+            arr[i] = value                                                                                           
+            i = i + 1                                                                                                
+        end                                                                                                          
+        return string.gsub(arr[1], "\n", "")                                                                         
+    else                                                                                                             
+        return string.gsub(content, "\n", "")                                                                        
+    end                                                                                                              
+end   
+
+print("Status:200 OK")
+print("Content-Type: text/json\n")
+local handle = io.popen("iwconfig | grep apcli0")
+local result = handle:read("*a")
+handle:close()
+
+local i = string.find(result,'SSID')
+local ssid=""
+if i>0 then
+    ssid = string.gsub(string.gsub(string.sub(result,i+6,-5),'"','\\"'),"\n","")
+end
+print('{"Car":[{"wifi":"' .. ssid .. '","type":"' .. readAll('/www/OdlWeb/Cartype.txt') .. '","GUID":"' .. readAll('/www/OdlWeb/GUID.txt') .. '","vid":"' .. readAll('/www/OdlWeb/VID.txt') .. '","odometer":"' .. readAll('/www/OdlWeb/Odometer.txt') .. '","tanklevel":"' .. readAll('/www/OdlWeb/Tanklevel.txt') .. '","batteryVoltage":"' .. readAll('/www/OdlWeb/Voltage.txt') .. '","batteryAmperage":"' .. readAll('/www/OdlWeb/Amperage.txt') .. '","batteryLoad":"' .. readAll('/www/OdlWeb/BatteryLoad.txt') .. '"}]}')

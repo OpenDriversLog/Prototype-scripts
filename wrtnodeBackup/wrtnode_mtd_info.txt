@@ -1,0 +1,7 @@
+dev:    size   erasesize  name
+mtd0: 00030000 00010000 "u-boot"
+mtd1: 00010000 00010000 "u-boot-env"
+mtd2: 00010000 00010000 "factory"
+mtd3: 00fb0000 00010000 "firmware"
+mtd4: 00eb4bd9 00010000 "rootfs"
+mtd5: 00750000 00010000 "rootfs_data"

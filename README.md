@@ -7,6 +7,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
 
 # Documentation
 
+**For usage instructions please refer to ODL.pdf, page 3ff.**
+
 ### parseAtma_Imiev.lua
 This script is for listening to the CAN-Bus in an I-MieV. 
 !!!Note that you have to set the baud rate of the STN1110 board to 500000 or it will get an buffer overflow error!!!
